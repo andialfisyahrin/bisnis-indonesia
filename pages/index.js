@@ -31,8 +31,8 @@ export default function Home() {
         <p>Offers end up to</p>
       </div>
 
-      <div className='time d-flex justify-content-around align-items-center'>
-        <div className='d-flex flex-column justify-content-center ms-5'>
+      <div className='time d-flex justify-content-center align-items-center'>
+        <div className='d-flex flex-column justify-content-center'>
           <h1>12</h1>
           <h4>HOURS</h4>
         </div>
