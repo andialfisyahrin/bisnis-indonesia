@@ -1,6 +1,6 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -22,6 +22,13 @@ export default function Home() {
           </div>
         </form>
       </div>
+
+      {/* <div className='d-flex justify-content-center mt-4'>
+        <Image src="/img/image 10.png" alt='' width={260} height={260} />
+        <Image src="/img/image 10 (1).png" alt='' width={260} height={260} />
+        <Image src="/img/image 10 (2).png" alt='' width={260} height={260} />
+        <Image src="/img/image 10 (3).png" alt='' width={260} height={260} />
+      </div> */}
       
       <div className='d-flex justify-content-center mt-4'>
         <Image src="/img/Group 1489.png" alt='' width={1100} height={260} />
